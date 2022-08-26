@@ -15,7 +15,7 @@ end
 
 labeldata=categorical(target); %change to categorical
 
-% COGNITIVE NEURAL NETWORK (CNN) LAYERS:
+% CONOVOLUTIONAL NEURAL NETWORK (CNN) LAYERS:
 layers = [ ...
     imageInputLayer([8 250 1])
 
